@@ -31,6 +31,12 @@ body {
 .button {
     color: #ffffff;
     background-color: var(--brend-color);
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
 }
 .button:hover,
 .button:focus {
