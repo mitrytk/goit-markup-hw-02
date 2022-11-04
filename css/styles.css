@@ -89,6 +89,9 @@ address {
 .nav-contacts .link {
     color: var(--text-main-color)
 }
+.nav-site .active {
+    color: var(--brend-color);
+}
 
 /* -main- */
 /* Герой */
