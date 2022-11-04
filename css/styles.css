@@ -1,0 +1,47 @@
+/* Шрифты
+font-family: 'Pacifico', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+:root {
+    --brend-color: #2196F3;
+    --logo-black-color: #000000;
+    --logo-white-color: #ffffff;
+    --text-title-color: #212121;
+    --text-main-color: #757575;
+    --background-main-color: #F5F5F5;
+    --background-secondary-color: #F5F4FA;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text-title-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    color: var(--text-main-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--background-main-color);
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.button {
+    color: #ffffff;
+    background-color: var(--brend-color);
+}
+
+/* Индивидуальные классы */
+
