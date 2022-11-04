@@ -16,25 +16,9 @@ font-family: 'Roboto', sans-serif;
 
 body {
     background-color: var(--white-color);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: var(--text-title-color);
-    font-family: 'Roboto', sans-serif;
-}
-
-p {
     color: var(--text-main-color);
-    font-family: 'Roboto', sans-serif;
-}
 
-address {
-    font-style: normal;
+    font-family: 'Roboto', sans-serif;
 }
 
 .list {
@@ -49,11 +33,16 @@ address {
     background-color: var(--brend-color);
 }
 .title {
+    color: var(--text-title-color);
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+}
+.address {
+    font-style: normal;
 }
 
 /* --Индивидуальные классы-- */
@@ -105,6 +94,7 @@ header {
 .hero-title {
     color: #ffffff;
 
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -114,6 +104,7 @@ header {
 }
 /* Достоинства */
 .dignity-title {
+    color: var(--text-title-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -132,6 +123,7 @@ header {
     background-color: var(--background-secondary-color);
 }
 .team-name {
+    color: var(--text-title-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -183,6 +175,7 @@ header {
 }
 /* список примера работ */
 .portfolio-titel {
+    color: var(--text-title-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
