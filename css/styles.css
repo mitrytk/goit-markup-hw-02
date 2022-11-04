@@ -55,7 +55,7 @@ body {
 /* -header- */
 /* logo */
 .logo {
-    color: inherit;
+    color: #000000;
 
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -145,6 +145,10 @@ header {
 .footer {
     color: var(--footer-text-color);
     background-color: var(--background-footer-color);
+}
+.footer .logo {
+    color: var(--footer-text-color);
+
 }
 .address-list {
     font-family: 'Roboto', sans-serif;
